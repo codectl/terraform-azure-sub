@@ -1,6 +1,6 @@
 module "sub" {
-  source  = "cloudnationhq/sub/azure"
-  version = "~> 4.0"
+  source  = "codectl/sub/azure"
+  version = "~> 1.0"
 
   subscription = {
     name = "TF-demo-subscription"
